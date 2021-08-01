@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterlab/presentation/feature/user_list/users_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+//      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: UsersScreenFactory().create(),
     );
   }
 }
