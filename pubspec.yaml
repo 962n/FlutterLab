@@ -24,6 +24,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.3
 
+  # The Following allow you to be able to use mock in testing.
+  mockito: ^5.0.12
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
